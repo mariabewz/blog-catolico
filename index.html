@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início - Blog Católico</title>
+    <link rel="stylesheet" href="estilo/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <script>
+        function toggleContent(id) {
+            var content = document.getElementById(id);
+            content.style.display = content.style.display === "none" ? "block" : "none";
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1 class="titulo-menu">A SANTA SÉ</h1>
+            <img id="logo-menu" src="img/ban.jpg" alt="Bandeira do Vaticano"/>
+        </div>
+        
+        <nav class="menu">
+            <ul class="menu-items">
+                <a href="home.html"><li>INÍCIO</li></a>
+                <a href="ag.html"><li>ANJO DA GUARDA</li></a>
+                <a href="am.html"><li>JESUS CRISTO</li></a>    
+                <a href="ns.html"><li>NOSSA SENHORA</li></a>
+                <a href="sc.html"><li>SANTA CATARINA</li></a>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <main class="content">
+            <section class="postagens">
+                <div class="post" id="post1">
+                    <h2>A Cátedra de São Pedro: símbolo da infalibilidade</h2>
+                    <h6>Por Arautos do Evangelho - 19 de Fevereiro de 2021</h6>
+                    <img src="img/vt.jpeg" alt="Imagem do Vaticano" class="post-img">
+                    <p>Sentado em uma simples cadeira de carvalho, São Pedro presidia as reuniões da primitiva Igreja. Ao longo dos séculos, essa preciosa relíquia foi crescendo em valor e significado.</p>
+                    <button onclick="toggleContent('conteudo1')">Leia mais</button>
+                    <div id="conteudo1" class="hidden-content">
+                        <h1>Cátedra de Pedro</h1>
+                        <p>Nos documentos eclesiásticos, de fato a expressão Cátedra de Pedro tem o mesmo significado de Trono de São Pedro, Sólio Pontifício, Sede Apostólica...</p>
+                    </div>
+                </div>
+                <div class="post" id="post2">
+                    <h2>Creio em Deus Pai: Oração do Credo</h2>
+                    <h6>Por Arautos do Evangelho - 25 de Março de 2025</h6>
+                    <img src="img/am.jpg" alt="Imagem do Vaticano 2" class="post-img">
+                    <p>A oração do Credo, conhecida também como Símbolo dos Apóstolos, é uma declaração solene de fé...</p>
+                    <button onclick="toggleContent('conteudo2')">Leia mais</button>
+                    <div id="conteudo2" class="hidden-content">
+                        <p>“Creio em Deus Pai todo-poderoso, Criador do céu e da terra, e em Jesus Cristo, seu único Filho...”</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <aside class="sidebar">
+            <div class="recent-posts">
+                <h3>Postagens Recentes</h3>
+                <p><a href="#post1">A Cátedra de São Pedro: símbolo da infalibilidade</a></p>
+                <p><a href="#post2">Creio em Deus Pai: Oração do Credo</a></p>
+            </div>
+            <div class="categories">
+                <h3>Categorias</h3>
+                <p><a href="ag.html">Anjo da Guarda</a></p>
+                <p><a href="am.html">Jesus Cristo</a></p>
+                <p><a href="ns.html">Nossa Senhora</a></p>
+                <p><a href="sc.html">Santa Catarina</a></p>
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Blog Católico - Feito por Maria Isabela.</p>
+    </footer>
+</body>
+</html>

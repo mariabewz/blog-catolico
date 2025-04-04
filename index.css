@@ -1,0 +1,127 @@
+/* Estilização Geral */
+body {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffce6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #92731f;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Container para o título e a bandeira */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+/* Estilização do título */
+.titulo-menu {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+/* Redimensionamento da imagem da bandeira */
+#logo-menu {
+    max-width: 80px;
+    height: auto;
+    display: block;
+}
+
+/* Estilização do menu */
+.menu {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.menu-items {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu-items a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+/* Layout Principal */
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+/* Barra Lateral */
+.sidebar {
+    width: 25%;
+    padding: 10px;
+}
+
+/* Reduzindo o tamanho das imagens */
+.post-img {
+    width: 100%;
+    max-width: 300px; /* Redução do tamanho */
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Postagens Recentes */
+.recent-posts, .categories {
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.recent-posts h3, .categories h3 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+/* Seção de Conteúdo */
+.postagens {
+    width: 75%;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+}
+
+/* Escondendo o conteúdo até ser exibido */
+.hidden-content {
+    display: none;
+    margin-top: 10px;
+}
+
+/* Botão de "Leia Mais" */
+button {
+    background-color: #f5e5ba;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    display: block;
+    margin: 10px 0;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #92731f;
+    color: white;
+    margin-top: 20px;
+}

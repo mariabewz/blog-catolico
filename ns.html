@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início - Blog Católico</title>
+    <link rel="stylesheet" href="estilo/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <script>
+        function toggleContent(id) {
+            var content = document.getElementById(id);
+            content.style.display = content.style.display === "none" ? "block" : "none";
+        }
+    </script>
+    
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1 class="titulo-menu">A SANTA SÉ</h1>
+            <img id="logo-menu" src="img/ban.jpg" alt="Bandeira do Vaticano"/> 
+        </div>
+        
+        <nav class="menu">
+            <ul class="menu-items">
+                <a href="home.html"><li>INÍCIO</li></a>
+                <a href="ag.html"><li>ANJO DA GUARDA</li></a>
+                <a href="am.html"><li>JESUS CRISTO</li></a>    
+                <a href="ns.html"><li>NOSSA SENHORA</li></a>
+                <a href="sc.html"><li>SANTA CATARINA</li></a>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <main class="content">
+            <section class="postagens">
+                <div class="post" id="post1">
+                    <h2>As Aparições de Fátima</h2>
+                    <h6>Postado por Arautos do Evangelho - 12/05/2021. </h6>
+                    <img src="img/NS.F.jpeg" alt="Imagem de Anjo da Guarda" class="post-img">
+                    <p>"Era uma Senhora vestida de branco, mais brilhante que o sol, espargindo luz mais clara e intensa que um copo de cristal cheio de água cristalina, atravessado pelos raios do sol mais ardente."</p>
+                    <button onclick="toggleContent('conteudo1')">Leia mais</button>
+                    <div id="conteudo1" class="hidden-content">
+                        <h1>A promessa da sétima vinda de Nossa Senhora</h1>
+                        <p> Em sua primeira aparição, a Santíssima Virgem pediu aos 3 pastorinhos que viessem à Cova da Iria seis meses seguidos. E acrescentou: “Depois voltarei ainda aqui uma sétima vez”.
+
+                            Seguiram-se as seis aparições, segundo o relato da Irmã Lúcia, pairando o mistério sobre a sétima aparição…
+                            
+                            Estará, esta, ligada à promessa do triunfo de Seu Imaculado Coração? Esse triunfo, sem dúvida, configura uma suprema e altíssima esperança para os dias de hoje! Fátima, queiramos ou não, tornou-se com a promessa “Por fim meu Imaculado Coração triunfará” o ponto de referência essencial, indispensável, para nossa vida e para o mundo contemporâneo. </p>
+                            <P> Fátima, inegavelmente, é a aurora do terceiro milênio!</P>      
+                    </div>
+                </div>
+                <div class="post" id="post2">
+                    <h2>Oração a Nossa Senhora de Fátima</h2>
+                    <h6>Postado em 13 de Maio de 2015 por Canção Nova</h6>
+                    <img src="img/ns.jpg" alt="Imagem de Anjo da Guarda" class="post-img">
+                    <p>Oração a Nossa Senhora de Fátima:</p>
+                    
+                    <button onclick="toggleContent('conteudo2')">Leia mais</button>
+                    <div id="conteudo2" class="hidden-content">
+                        <p>Santíssima Virgem, que nos montes de Fátima vos dignastes revelar aos três pastorinhos os tesouros das graças que podemos alcançar, rezando o Santo Rosário, ajudai-nos a apreciar sempre mais essa santa oração, a fim de que, meditando os mistérios da nossa redenção, alcancemos as graças que insistentemente vos pedimos (pedir a graça).</p>
+                        <p>Ó meu Jesus, perdoai-nos, livrai-nos do fogo do inferno, levai as almas todas para o céu e socorrei principalmente as que mais precisarem.
+                            Nossa Senhora de Fátima, rogai por nós.</p>
+                            
+                    <h4>Oração</h4>
+                    <P> Ó Santíssima Virgem Maria, Rainha do Rosário e Mãe de misericórdia, que vos dignastes manifestar em Fátima a ternura de vosso Imaculado Coração trazendo-nos mensagens de salvação e de paz, confiados em vossa misericórdia maternal e agradecidos das bondades de vosso amantíssimo coração, viemos a vossos pés para render-vos o tributo de nossa veneração e amor.
+                        Concedei-nos as graças de que necessitamos para cumprir fielmente vossa mensagem de amor, e a que vos pedimos nessa novena, se forem elas para maior glória de Deus, honra vossa e proveito de nossas almas.
+                        Assim seja.</P>
+                    <h4>Oração final</h4>
+                    <p>Ó Deus, cujo Unigênito, com Sua vida, Morte e Ressurreição mereceu-nos o prêmio da salvação eterna, suplicamo-Vos: concedas-nos que, meditando os mistérios do Santíssimo Rosário da bem-aventurada Virgem Maria, imitemos os exemplos que nos ensinam e alcancemos o prêmio que prometem. Pelo mesmo Jesus Cristo, nosso Senhor. Amém.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <aside class="sidebar">
+            <div class="recent-posts">
+                <h3>Postagens Recentes</h3>
+                <p><a href="#post1">As Aparições de Fátima</a></p>
+                <p><a href="#post2">Oração a Nossa Senhora de Fátima</a></p> 
+            </div>
+            <div class="categories">
+                <h3>Categorias</h3>
+                <p><a href="ag.html">Anjo da Guarda</a></p>
+                <p><a href="am.html">Jesus Cristo</a></p>
+                <p><a href="ns.html">Nossa Senhora</a></p>
+                <p><a href="sc.html">Santa Catarina</a></p>
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Blog Católico - Feito por Maria Isabela.</p>
+    </footer>
+</body>
+</html>

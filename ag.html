@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início - Blog Católico</title>
+    <link rel="stylesheet" href="estilo/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <script>
+        function toggleContent(id) {
+            var content = document.getElementById(id);
+            content.style.display = content.style.display === "none" ? "block" : "none";
+        }
+    </script>
+    
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1 class="titulo-menu">A SANTA SÉ</h1>
+            <img id="logo-menu" src="img/ban.jpg" alt="Bandeira do Vaticano"/> 
+        </div>
+        
+        <nav class="menu">
+            <ul class="menu-items">
+                <a href="home.html"><li>INÍCIO</li></a>
+                <a href="ag.html"><li>ANJO DA GUARDA</li></a>
+                <a href="am.html"><li>JESUS CRISTO</li></a>    
+                <a href="ns.html"><li>NOSSA SENHORA</li></a>
+                <a href="sc.html"><li>SANTA CATARINA</li></a>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <main class="content">
+            <section class="postagens">
+                <div class="post" id="post1">
+                    <h2>Santos Anjos da Guarda</h2>
+                    <h6>Postado por Arautos do Evangelho, 29/09/2020. </h6>
+                    <img src="img/ag.jpeg" alt="Imagem de Anjo da Guarda" class="post-img">
+                    <p>“Para todas as pessoas que vivem há um Anjo da guarda. Por isso ninguém se encontra sozinho" São Padre Pio</p>
+                    <button onclick="toggleContent('conteudo1')">Leia mais</button>
+                    <div id="conteudo1" class="hidden-content">
+                        <h1>Os Anjos são mais numerosos que os homens?</h1>
+                        <p> Ao criar, Deus teve em vista “a perfeição do universo como finalidade principal”, pois tinha intenção de espelhar o supremo Bem, ou seja, Ele mesmo. Por isso, fez em maior número os seres mais elevados.
+
+                            Perto do número de Anjos, todas as estrelas do firmamento não passam de um punhadinho de pedras preciosas.
+                            
+                            Todos os homens – desde Adão até o último a nascer no fim do mundo – são poucos em relação às miríades de puros espíritos que espelham tão perfeitamente o Criador dos homens e dos Anjos.
+                            
+                            É com grande veracidade que Dionísio confessou humildemente: “Os exércitos bem-aventurados dos espíritos celestes são numerosos, superando a medida pequena e restrita de nossos números materiais”.
+                            
+                    </div>
+                </div>
+                <div class="post" id="post2">
+                    <h2>Quem são os Anjo da Guarda?</h2>
+                    <h6>Postado em 21 de Março de 2025 por Arautos do Evangelho</h6>
+                    <img src="img/ag2.jpeg" alt="Imagem de Anjo da Guarda" class="post-img">
+                    <p>Os Anjos da Guarda são seres espirituais enviados por Deus para proteger e guiar cada ser humano ao longo de sua vida.</p>
+                    <button onclick="toggleContent('conteudo2')">Leia mais</button>
+                    <div id="conteudo2" class="hidden-content">
+                        <p>Essa crença tem base na Tradição Cristã e na Sagrada Escritura, sendo um dos pilares da Fé Católica.
+
+                            Desde os primeiros séculos do Cristianismo, a Igreja ensina que cada pessoa tem um Anjo da Guarda pessoal, cuja missão é conduzi-la no caminho da salvação e protegê-la das ciladas do inimigo.
+                            
+                            Esses Anjos não interferem no livre-arbítrio humano, mas estão sempre prontos para auxiliar aqueles que pedem sua intercessão.</p>
+                    </div>
+                </div>
+                <div class="post" id="post3">
+                    <h2>Oração Clássica ao Anjo da Guarda</h2>
+                    <h6>Postado em 21 de Março de 2025 por Arautos do Evangelho</h6>
+                    <img src="img/ag3.jpeg" alt="Imagem de Anjo da Guarda" class="post-img">
+                    <p>A oração tradicional ao Anjo da Guarda é curta, fácil de memorizar e pode ser rezada a qualquer momento do dia. Seu texto é o seguinte:</p>
+                    <button onclick="toggleContent('conteudo2')">Leia mais</button>
+                    <div id="conteudo2" class="hidden-content">
+                        <p>“Santo Anjo do Senhor, meu zeloso guardador, se a ti me confiou a piedade divina, sempre me rege, me guarda, me governa e me ilumina. Amém”.</p>
+                        <p>Essa oração expressa confiança e entrega à proteção angelical, pedindo que o Anjo da Guarda esteja sempre presente, guiando cada passo do fiel.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <aside class="sidebar">
+            <div class="recent-posts">
+                <h3>Postagens Recentes</h3>
+                <p><a href="#post1">Santos Anjos da Guarda</a></p>
+                <p><a href="#post2">Quem são os Anjos da Guarda?</a></p> 
+                <p><a href="#post3">Oração Clássica ao Anjo da Guarda</a></p>
+            </div>
+            <div class="categories">
+                <h3>Categorias</h3>
+                <p><a href="ag.html">Anjo da Guarda</a></p>
+                <p><a href="am.html">Jesus Cristo</a></p>
+                <p><a href="ns.html">Nossa Senhora</a></p>
+                <p><a href="sc.html">Santa Catarina</a></p>
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Blog Católico - Feito por Maria Isabela.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início - Blog Católico</title>
+    <link rel="stylesheet" href="estilo/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <script>
+        function toggleContent(id) {
+            var content = document.getElementById(id);
+            content.style.display = content.style.display === "none" ? "block" : "none";
+        }
+    </script>
+    
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1 class="titulo-menu">A SANTA SÉ</h1>
+            <img id="logo-menu" src="img/ban.jpg" alt="Bandeira do Vaticano"/> 
+        </div>
+        
+        <nav class="menu">
+            <ul class="menu-items">
+                <a href="home.html"><li>INÍCIO</li></a>
+                <a href="ag.html"><li>ANJO DA GUARDA</li></a>
+                <a href="am.html"><li>JESUS CRISTO</li></a>    
+                <a href="ns.html"><li>NOSSA SENHORA</li></a>
+                <a href="sc.html"><li>SANTA CATARINA</li></a>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <main class="content">
+            <section class="postagens">
+                <div class="post" id="post1">
+                    <h2>Santa Catarina de Siena, voz de Deus e doutora da Igreja</h2>
+                    <h6>Postado 03 de abril de 2025 </h6>
+                    <img src="img/sc.jpeg" alt="Imagem da Santa Catarina" class="post-img">
+                    <p>“Quem possui o amor de Deus, nele encontra tanta alegria que cada amargura se transforma em doçura, e cada grande peso se torna leve. E isto não nos deve surpreender porque, vivendo na caridade, vive-se em Deus." Santa Catarina de Siena</p>
+                    <button onclick="toggleContent('conteudo1')">Leia mais</button>
+                    <div id="conteudo1" class="hidden-content">
+                        <h1>Quem foi Santa Catarina de Siena?</h1>
+                        <p> Santa Catarina de Siena (1347-1380) foi uma mística, teóloga e Doutora da Igreja. Terciária dominicana, dedicou sua vida à oração, penitência e ao serviço dos pobres e doentes. Recebeu revelações divinas e escreveu o famoso Diálogo da Divina Providência, um tratado espiritual sobre a relação entre Deus e a alma humana. Também teve um papel fundamental na Igreja, influenciando o retorno do Papa de Avignon para Roma. Foi canonizada em 1461 e proclamada Doutora da Igreja em 1970..
+                        </p>                 
+                    </div>
+                </div>
+                <div class="post" id="post2">
+                    <h2>Oração a Santa Catarina de Siena</h2>
+                    <h6>Postadoem 03 de abril de 2025</h6>
+                    <img src="img/sc2.jpg" alt="Imagem da Santa Catarina" class="post-img">
+                    <p>Uma oração tradicional a Santa Catarina é:</p>
+                    <button onclick="toggleContent('conteudo2')">Leia mais</button>
+                    <div id="conteudo2" class="hidden-content">
+                        <p>Ó gloriosa Santa Catarina de Siena, modelo de amor ardente a Deus e ao próximo, intercede por nós junto ao Senhor, para que sejamos fortalecidos na fé, perseverantes na caridade e guiados pela sabedoria divina. Ensina-nos a confiar na misericórdia de Deus e a entregar nossa vida a Ele sem reservas. Amém.</p>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+
+        <aside class="sidebar">
+            <div class="recent-posts">
+                <h3>Postagens Recentes</h3>
+                <p><a href="#post1">Quem foi Santa Catarina de Siena?</a></p>
+                <p><a href="#post2">Oração a Santa Catarina de Siena</a></p> 
+            </div>
+            <div class="categories">
+                <h3>Categorias</h3>
+                <p><a href="ag.html">Anjo da Guarda</a></p>
+                <p><a href="am.html">Jesus Cristo</a></p>
+                <p><a href="ns.html">Nossa Senhora</a></p>
+                <p><a href="sc.html">Santa Catarina</a></p>
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Blog Católico - Feito por Maria Isabela.</p>
+    </footer>
+</body>
+</html>

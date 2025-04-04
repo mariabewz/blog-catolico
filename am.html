@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início - Blog Católico</title>
+    <link rel="stylesheet" href="estilo/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <script>
+        function toggleContent(id) {
+            var content = document.getElementById(id);
+            content.style.display = content.style.display === "none" ? "block" : "none";
+        }
+    </script>
+    
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1 class="titulo-menu">A SANTA SÉ</h1>
+            <img id="logo-menu" src="img/ban.jpg" alt="Bandeira do Vaticano"/> 
+        </div>
+        
+        <nav class="menu">
+            <ul class="menu-items">
+                <a href="home.html"><li>INÍCIO</li></a>
+                <a href="ag.html"><li>ANJO DA GUARDA</li></a>
+                <a href="am.html"><li>JESUS CRISTO</li></a>    
+                <a href="ns.html"><li>NOSSA SENHORA</li></a>
+                <a href="sc.html"><li>SANTA CATARINA</li></a>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <main class="content">
+            <section class="postagens">
+                <div class="post" id="post1">
+                    <h2>O Santíssimo Nome de Jesus</h2>
+                    <h6>Por Arautos do Evangelho - 03 de abril de 2025. </h6>
+                    <img src="img/SNJ.jpg" alt="Imagem de Anjo da Guarda" class="post-img">
+                   <p> É em nome do Divino Salvador que a Igreja reza, cura os enfermos, evangeliza os povos, expulsa os demônios, enfim, realiza sua obra de salvação das almas. </p>
+                    <button onclick="toggleContent('conteudo1')">Leia mais</button>
+                    <div id="conteudo1" class="hidden-content">
+                        <h3>Não há outro nome pelo qual sejamos salvos</h3>
+                        <p>Muitos habitantes de Jerusalém assistiram à cena tão bem narrada nos Atos dos Apóstolos, que o leitor tem a impressão de estar também presente.</p>
+                        <p>Pedro e João subiam ao Templo para rezar. Um coxo de nascença, postado na Porta Formosa, lhes pediu esmola.</p>
+                        <p>— Olha para nós! — disse-lhe o Príncipe dos Apóstolos.</p>
+                        <p>O pobre fitou-os com atenção, perguntando-se quanto iria receber.</p>
+                        <p>— Não tenho prata nem ouro, mas dou-te o que tenho: em nome de Jesus de Nazaré, levanta-te e anda.</p>
+                        <p>Dando um salto, o aleijado pôs-se de pé e entrou com eles no Templo, saltando e louvando a Deus. E de tal forma agarrou-se aos dois Apóstolos que em torno destes juntou-se uma multidão estupefata. Ao ver isso, Pedro assim falou:
+                        </p>
+                        <p>— Varões israelitas, por que olhais para nós, como se por nosso poder tivéssemos feito andar este homem? O Deus de nossos pais glorificou seu filho Jesus. Mediante a fé em seu nome é que esse mesmo nome deu a cura perfeita a este homem que vós vedes e conheceis.</p>
+                        <p>Continuou São Pedro seu discurso, exortando os ouvintes à conversão, até ser interrompido por alguns sacerdotes e saduceus, acompanhados do chefe da guarda do Templo, o qual prendeu os dois homens de Deus.</p>
+                        <p>No dia seguinte, foram eles conduzidos à presença do Sumo Sacerdote e seu Conselho.</p>
+                        <p>— Com que poder e em nome de quem fizestes isso? — perguntaram-lhe. </p>
+                        <p>A resposta veio serena, mas firme:</p> 
+                        <p>— Príncipes do povo e anciãos, ouvi-me! Já que somos aqui interrogados sobre a cura de um homem enfermo, seja notório a todo o povo de Israel que é em nome de Jesus Cristo Nazareno, é por ele que este homem está são diante de vós. Não há salvação em nenhum outro, porque não há sob o céu nenhum outro nome pelo qual devamos ser salvos.</p>
+                   
+                    </div>
+                </div>
+                <div class="post" id="post2">
+                    <h2>Breve Ato de Contrição </h2>
+                    <h6>Postado em 20 de Março de 2021 por Arautos do Evangelho</h6>
+                    <img src="img/JC.jpg" alt="Imagem de Jesus" class="post-img">
+                    <p>Breve Ato de Contrição que pode ser rezado muitas vezes durante a Quaresma e na impossibilidade de obter a Confissão Sacramental:</p>
+                    <button onclick="toggleContent('conteudo2')">Leia mais</button>
+                    <div id="conteudo2" class="hidden-content">
+                        <p>Senhor meu Jesus Cristo, Deus e Homem verdadeiro, Criador e Redentor meu, por serdes Vós quem sois, sumamente bom e digno de ser amado sobre todas as coisas, e porque Vos amo e estimo, pesa-me, Senhor, por Vos ter ofendido; pesa-me também por ter perdido o Céu e merecido o inferno.</p>
+                        <p>Mas proponho firmemente, com o auxílio de vossa divina graça, e pela poderosa intercessão de vossa Mãe Santíssima, emendar-me e nunca mais Vos tornar a ofender. Espero alcançar o perdão de minhas culpas, por vossa infinita misericórdia. Amém</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <aside class="sidebar">
+            <div class="recent-posts">
+                <h3>Postagens Recentes</h3>
+                <p><a href="#post1">O Santíssimo Nome de Jesus</a></p>
+                <p><a href="#post2">Breve Ato de Contrição </a></p>
+            </div>
+            <div class="categories">
+                <h3>Categorias</h3>
+                <p><a href="ag.html">Anjo da Guarda</a></p>
+                <p><a href="am.html">Jesus Cristo</a></p>
+                <p><a href="ns.html">Nossa Senhora</a></p>
+                <p><a href="sc.html">Santa Catarina</a></p>
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Blog Católico - Feito por Maria Isabela.</p>
+    </footer>
+</body>
+</html>

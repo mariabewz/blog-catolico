@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início - Blog Católico</title>
+    <link rel="stylesheet" href="estilo/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <script>
+        function toggleContent(id) {
+            var content = document.getElementById(id);
+            content.style.display = content.style.display === "none" ? "block" : "none";
+        }
+    </script>
+    
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1 class="titulo-menu">A SANTA SÉ</h1>
+            <img id="logo-menu" src="img/ban.jpg" alt="Bandeira do Vaticano"/> 
+        </div>
+        
+        <nav class="menu">
+            <ul class="menu-items">
+                <a href="home.html"><li>INÍCIO</li></a>
+                <a href="ag.html"><li>ANJO DA GUARDA</li></a>
+                <a href="am.html"><li>JESUS CRISTO</li></a>    
+                <a href="ns.html"><li>NOSSA SENHORA</li></a>
+                <a href="sc.html"><li>SANTA CATARINA</li></a>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <main class="content">
+            <section class="postagens">
+                <div class="post" id="post1">
+                    <h2>A Cátedra de São Pedro: símbolo da infalibilidade</h2>
+                    <h6>Por Arautos do Evangelho - 19 de Fevereiro de 2021  </h6>
+                    <img src="img/vt.jpeg" alt="Imagem do Vaticano" class="post-img">
+                    <p>Sentado em uma simples cadeira de carvalho, São Pedro presidia as reuniões da primitiva Igreja. Ao longo dos séculos, essa preciosa relíquia foi crescendo em valor e significado.</p>
+                    <button onclick="toggleContent('conteudo1')">Leia mais</button>
+                    <div id="conteudo1" class="hidden-content">
+                        <h1>Cátedra de Pedro</h1>
+                        <p> Nos documentos eclesiásticos, de fato a expressão Cátedra de Pedro tem o mesmo significado de Trono de São Pedro, Sólio Pontifício, Sede Apostólica. Num sentido figurativo, equipara-se ela a Papado e até mesmo a Igreja Católica.
+
+                            Com efeito, afirmaram os Padres do IV Concílio de Constantinopla (ano 859): "A Religião católica sempre se conservou inviolável na Sé Apostólica (...) Nós esperamos conseguir manter-nos unidos a esta Sé Apostólica sobre a qual repousa a verdadeira e perfeita solidez da Religião cristã".
+                            
+                            Em uma de suas cartas, São Bernardo usa a expressão "Santa Sé Apostólica" para afirma que a infalibilidade é privilégio "da Sé Apostólica".
+                            
+                            Após a solene definição do dogma da Infalibilidade papal no Concílio Vaticano I, todos os católicos, eclesiásticos ou leigos, são unânimes em proclamar que o Papa é e sempre será isento de erro em matéria de fé e de moral, de acordo com as palavras de Jesus ao Príncipe dos Apóstolos: "Eu roguei por ti a fim de que não desfaleças; e tu, por tua vez, confirma teus irmãos" (Lc 22,32).
+                            
+                            A Cátedra de Pedro é o mais eloqüente símbolo dessa Infalibilidade, do Papado, da pessoa do Papa e da própria Santa Igreja de Cristo.
+                            
+                            Por isso, para ela se volta nossa entusiástica admiração de modo especial no dia de sua Festa litúrgica, 22 de fevereiro. (Revista Arautos do Evangelho, Fev/2005, n. 38, p. 32 e 33) </p>
+                            
+                    </div>
+                </div>
+                <div class="post" id="post2">
+                    <h2>Creio em Deus Pai: Oração do Credo </h2>
+                    <h6>Por Arautos do Evangelho -  25 de Março de 2025</h6>
+                    <img src="img/am.jpg" alt="Imagem do Vaticano 2" class="post-img">
+                    <p>A oração do Credo, conhecida também como Símbolo dos Apóstolos, é uma declaração solene de fé. A sua versão completa é a seguinte:</p>
+                    <button onclick="toggleContent('conteudo2')">Leia mais</button>
+                    <div id="conteudo2" class="hidden-content">
+                        <p>
+                            “Creio em Deus Pai todo-poderoso, Criador do céu e da terra, e em Jesus Cristo, seu único Filho, nosso Senhor;
+                            
+                            que foi concebido pelo poder do Espírito Santo, nasceu de Maria Virgem;
+                            
+                            padeceu sob Pôncio Pilatos; foi crucificado, morto e sepultado;
+                            
+                            desceu à mansão dos mortos; ressuscitou ao terceiro dia;
+                            
+                            subiu aos Céus; está sentado à direita de Deus Pai todo-poderoso,
+                            
+                            de onde há de vir a julgar os vivos e os mortos.
+                            
+                            Creio no Espírito Santo;
+                            
+                            na Santa Igreja Católica; na Comunhão dos Santos;
+                            
+                            na remissão dos pecados;
+                            
+                            na ressurreição da carne;
+                            
+                            na vida eterna.
+                            
+                            Amém”.
+                        </p>
+                        <p> Este texto é dividido em partes principais que refletem os dogmas básicos da Fé Cristã. São estes, crer:
+                            
+                            Na unidade e Trindade de Deus. Ou seja, em Deus Pai, em Jesus Cristo e no Espírito Santo
+                            Na Vida, Paixão, Morte e Ressurreição de Jesus Cristo.
+                            Cada uma dessas partes é rica em significado e merece uma análise cuidadosa. Elas tocam na imensidão divina e na misericórdia d’Ele ao nos enviar seu Filho Único para nos salvar.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <aside class="sidebar">
+            <div class="recent-posts">
+                <h3>Postagens Recentes</h3>
+                <p><a href="#post1">A Cátedra de São Pedro: símbolo da infalibilidade</a></p>
+                <p><a href="#post2">Creio em Deus Pai: Oração do Credo</a></p> 
+            </div>
+            <div class="categories">
+                <h3>Categorias</h3>
+                <p><a href="ag.html">Anjo da Guarda</a></p>
+                <p><a href="am.html">Jesus Cristo</a></p>
+                <p><a href="ns.html">Nossa Senhora</a></p>
+                <p><a href="sc.html">Santa Catarina</a></p>
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Blog Católico - Feito por Maria Isabela.</p>
+    </footer>
+</body>
+</html>
